@@ -49,6 +49,7 @@ class Inserter extends Component {
 			onInsertBlock,
 			rootClientId,
 			disabled,
+			index,
 			renderToggle = defaultRenderToggle,
 		} = this.props;
 
@@ -77,6 +78,7 @@ class Inserter extends Component {
 							items={ items }
 							onSelect={ onSelect }
 							rootClientId={ rootClientId }
+							index={ index }
 						/>
 					);
 				} }
